@@ -1,0 +1,29 @@
+{
+    "cpu": [
+      {
+        "command": "lscpu | grep \"CPU max\"",
+        "expected_output": "1700.0000"
+      },
+      {
+        "command": "lscpu | grep \"CPU min\"",
+        "expected_output": "1000.0000"
+      },
+      {
+        "command": "lscpu | grep CPU(s)",
+        "expected_output": "32"
+      },
+      {
+        "command": "lscpu | grep Architecture",
+        "expected_output": "aarch64"
+      },
+      {
+        "command": "lscpu | grep \"Vendor ID\"",
+        "expected_output": "ARM"
+      },
+      {
+        "command": "lscpu | grep \"Model name\"",
+        "expected_output": "Neoverse-N1"
+      }
+    ]
+  }
+  

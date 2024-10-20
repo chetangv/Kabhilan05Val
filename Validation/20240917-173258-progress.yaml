@@ -1,0 +1,8 @@
+items:
+  - test_get_cpu_info[10.100.1.40-test-test123-lscpu]
+results:
+  -
+    name: test_get_cpu_info[10.100.1.40-test-test123-lscpu]
+    setup: passed
+    call: failed
+    teardown: passed
