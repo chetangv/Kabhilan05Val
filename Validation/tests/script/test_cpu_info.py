@@ -59,6 +59,6 @@ def test_remote_command(ssh_connection,command_info):
     logger.info(type(output))
     logger.info(output)
     logger.info(f"Command output:\n{output}")
-    assert output <= expected_output  # Check if output is valid
+    assert output == expected_output  # Check if output is valid
     print(output)  # Optional: Print the output for debugging
     # ssh_connection.close()
