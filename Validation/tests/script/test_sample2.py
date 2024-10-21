@@ -2,6 +2,7 @@ import pytest
 import logging
 
 # Sample test cases
+@pytest.mark.p1
 def test_addition():
     logger = logging.getLogger(__name__)
     logger.info("Addition ")
