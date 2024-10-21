@@ -22,7 +22,7 @@
       },
       {
         "command": "lscpu | grep \"Model name\"",
-        "expected_output": "Neoverse-N1"
+        "expected_output": "Model name:                         Neoverse-N1"
       }
     ]
   }
