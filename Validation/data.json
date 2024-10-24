@@ -9,7 +9,7 @@
         "expected_output": "1000.0000"
       },
       {
-        "command": "lscpu | grep CPU(s)",
+        "command":"lscpu | grep -E \"^CPU\\(s\\):\"" ,
         "expected_output": "32"
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "command": "lscpu | grep \"Model name\"",
-        "expected_output": "Model name:                         Neoverse-N1"
+        "expected_output": "Neoverse-N1"
       }
     ]
   }
